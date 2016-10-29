@@ -6,8 +6,8 @@ li = []
 def impar(li):
 	otrali=[]
 	for elemento in li:
-		if elemento != li[1] and elemento != li[3] and elemento != li[5]:
-			otrali.append(elemento)
-		else:
+		if li.index(elemento)%2==0:
 			otrali = otrali
+		else:
+			otrali.append(elemento)
 	return otrali
