@@ -7,7 +7,7 @@ def suma(numero):
 	resultado = 0
 	while numero >= 0:
 		resultado = resultado + numero
-		numero = int(raw_input('Introduce otro número: '))
+		numero = int(raw_input('Introduce otro número. Cuando te aburras, mete un número negativo: '))
 	else:
 		resultado = resultado
 	return resultado
