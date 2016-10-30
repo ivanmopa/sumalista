@@ -11,3 +11,8 @@ def impar(li):
 		else:
 			otrali.append(elemento)
 	return otrali
+
+print impar([32, 'pakito', 'chorizo', 1300, 233, 'tortilla']) #Debería dar ['pakito', 1300, 'tortilla']
+print impar(['hola', True, 'Jacinto', 2458, 14]) #Debería dar [True, 2458]
+print impar(['nada']) #Debería dar []
+print impar([False, 13, 45, True, 248, True, 458, 13]) #Debería dar [13, True, True, 13]
