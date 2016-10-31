@@ -11,4 +11,8 @@ def suma(numero):
 	else:
 		resultado = resultado
 	return resultado
-	
+
+#Este no recibe una lista de números (de las que se ponen entre corchetes).
+#Tenía dudas si te referías a una lista de esas o a esto, que también lo
+#considero lista al ser una sucesión de números. Al final he pensado que 
+#esto ya lo hiciste tú en clase, por eso he hecho el otro.
