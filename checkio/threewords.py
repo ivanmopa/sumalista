@@ -5,12 +5,12 @@ def checkio(cadena):
 	cuenta = 0
 	espalabra = False
 	for palabra in li:
-		if palabra not in "123456789":
+		if palabra.isalpha():
 			cuenta = cuenta + 1
-			if cuenta >= 3:
+			if cuenta == 3:
 				espalabra = True
 		else:
-			espalabra = espalabra
+			cuenta = 0	
 	return espalabra
 
 print checkio("Hello World hello") #== True
